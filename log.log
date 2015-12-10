@@ -1,0 +1,2569 @@
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710695.2649
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710695.2649
+Message: Authentication accepted
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710695.2721
+
+----------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710695.2721
+Message: Queue status will follow
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710695.2721
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710695.4303
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710695.4303
+Message: Authentication accepted
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710695.4377
+
+----------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710695.4377
+Message: Queue status will follow
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710695.4377
+
+
+2014-12-04T16:31:35+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710696.5292
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710696.5292
+Message: Authentication accepted
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710696.5404
+
+----------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710696.5404
+Message: Queue status will follow
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710696.5404
+
+
+2014-12-04T16:31:36+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710697.0043
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710697.0043
+Message: Authentication accepted
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710697.0179
+
+----------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710697.0179
+Message: Queue status will follow
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710697.0179
+
+
+2014-12-04T16:31:37+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710698.9403
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710698.9403
+Message: Authentication accepted
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710698.9529
+
+----------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710698.9529
+Message: Queue status will follow
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710698.9529
+
+
+2014-12-04T16:31:38+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710700.3934
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710700.3934
+Message: Authentication accepted
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710700.4047
+
+----------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: RTCPReceived
+Privilege: reporting,all
+From: 172.16.150.2:17015
+PT: 200(Sender Report)
+ReceptionReports: 1
+SenderSSRC: 536870912
+FractionLost: 0
+PacketsLost: 32
+HighestSequence: 8539
+SequenceNumberCycles: 1
+IAJitter: 0
+LastSR: 0.0000000000
+DLSR: 0.0000(sec)
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710700.4047
+Message: Queue status will follow
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710700.4047
+
+
+2014-12-04T16:31:40+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710702.435
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710702.435
+Message: Authentication accepted
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710702.4483
+
+----------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710702.4483
+Message: Queue status will follow
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710702.4483
+
+
+2014-12-04T16:31:42+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710703.8943
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710703.8943
+Message: Authentication accepted
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710703.91
+
+----------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710703.91
+Message: Queue status will follow
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710703.91
+
+
+2014-12-04T16:31:43+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710705.926
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710705.926
+Message: Authentication accepted
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710705.9377
+
+----------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710705.9377
+Message: Queue status will follow
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710705.9377
+
+
+2014-12-04T16:31:45+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710707.3869
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710707.3869
+Message: Authentication accepted
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710707.4001
+
+----------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710707.4001
+Message: Queue status will follow
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710707.4001
+
+
+2014-12-04T16:31:47+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: Login
+actionid: 1417710709.4223
+username: asterisk
+secret: @st3r1sk
+
+----------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710709.4223
+Message: Authentication accepted
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: Logged in successfully to ami.
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Sending: ------ 
+action: QueueStatus
+actionid: 1417710709.43
+
+----------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Response: Success
+ActionID: 1417710709.43
+Message: Queue status will follow
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: operator
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 4
+TalkTime: 39
+Completed: 4
+Completedinsl: 3
+Abandoned: 0
+ServiceLevel: 10
+ServicelevelPerf: 75.0
+Weight: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: operator
+Name: SIP/5874
+Location: SIP/5874
+Membership: static
+Penalty: 0
+CallsTaken: 4
+LastCall: 1417710250
+Status: 1
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: support
+Max: 0
+Strategy: ringall
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5951
+Location: SIP/5951
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5911
+Location: SIP/5911
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5915
+Location: SIP/5915
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: support
+Name: SIP/5933
+Location: SIP/5933
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 5
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: voip
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5857
+Location: SIP/5857
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: voip
+Name: SIP/5869
+Location: SIP/5869
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 2
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueParams
+Queue: atencion-3M
+Max: 0
+Strategy: rrmemory
+Calls: 0
+Holdtime: 0
+TalkTime: 0
+Completed: 0
+Completedinsl: 0
+Abandoned: 0
+ServiceLevel: 20
+ServicelevelPerf: 0.0
+Weight: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueMember
+Queue: atencion-3M
+Name: SIP/5924
+Location: SIP/5924
+Membership: static
+Penalty: 0
+CallsTaken: 0
+LastCall: 0
+Status: 1
+Paused: 0
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ------ Received: ------ 
+Event: QueueStatusComplete
+ActionID: 1417710709.43
+
+
+2014-12-04T16:31:49+00:00 [DEBUG] Pami.ClientImpl: ----------------
