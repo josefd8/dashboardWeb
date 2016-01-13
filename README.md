@@ -2,13 +2,20 @@
 Dashboard interactivo para una central telefonica Asterisk.
 
 Este dashboard presenta estadisticas de un servidor asterisk a traves de un explorador web.
-El backend esta realizado en PHP mediante framework Yii y el frontend mediante bootstrap.
+El backend esta realizado en PHP mediante framework Yii y el frontend mediante bootstrap. Hace uso intensivo de JavaScritp y server-side-events para enviar información en tiempo real a los clientes conectados.
 
 El proyecto se conecta al servidor Asterisk mediante una conexion AMI y muestra estadisticas en
 tiempo real de cantidad de agentes conectados, agentes ocupados, llamadas en espera, y estadisticas
 por cola.
 
 El servidor hace uso de una BD central (archivo BD adjunto), que guarda los datos de configuracion y le permite a todas las instancias abiertas de la aplicacion actualizarce con el mismo contenido
+
+
+![dashboardWeb](https://github.com/josefd8/dashboardWeb/blob/master/dashboardWeb.png)
+
+
+Todo el layout fue realizado en Bootstrap. La cantidad de colas que se muestran pueden ser editadas en tiempo real y los valores de las metricas cambian automaticamente de forma animada para reflejar los nuevos promedios. Tiene un cintillo en la parte inferior que muestra un texto que recorre la pantalla. (que tambien puede ser modificado en tiempo real)
+
 
 
 ##Nota: 
